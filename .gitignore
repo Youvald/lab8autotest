@@ -1,0 +1,40 @@
+# Gauge - metadata dir
+.gauge
+
+# Gauge - log files dir
+logs
+
+# Gauge - reports dir
+reports
+
+# Gauge - JavaScript node dependencies
+node_modules
+.DS_Store
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Gauge reports
+gauge/reports/
+gauge/logs/
+
+# VSCode settings
+.vscode/
+
+# Taiko / Puppeteer specific
+gauge/.gauge/
+puppeteer/node_modules/
+puppeteer/package-lock.json
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+.dockerignore
+Dockerfile
